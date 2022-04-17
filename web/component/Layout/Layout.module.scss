@@ -1,5 +1,18 @@
+
 @import '../../styles/constant.scss';
+
+.wrapper {
+  @include fullrect();
+}
 
 .layer {
   @include fullrect();
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  &.show {
+    display: block;
+  }
 }
