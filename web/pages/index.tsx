@@ -11,8 +11,11 @@ const Home: NextPage = () => {
         title={'ryde'}
         description={'ryde - live'}
       />
-      <div>
-        <Layout>hoge</Layout>
+      <div className="full">
+        <Layout
+          children="hoge"
+          layer="fuga"
+        />
       </div>
     </>
   );
