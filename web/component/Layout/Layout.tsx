@@ -1,5 +1,5 @@
 
-import styles from './Layout.module.scss';
+import style from './Layout.module.scss';
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -9,10 +9,10 @@ type LayoutProps = {
 function Layout({children, layer}: LayoutProps): JSX.Element {
   return (
     <>
-      <div className={styles.wrapper}>
+      <div className={style.wrapper}>
         {children}
       </div>
-      <div className={styles.layer}>
+      <div className={style.layer}>
         {layer}
       </div>
     </>
