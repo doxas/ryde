@@ -3,6 +3,15 @@
 
 .wrapper {
   @include fullrect();
+  color: red;
+}
+
+.dark {
+  background-color: #666;
+}
+
+.light {
+  background-color: #ccc;
 }
 
 .layer {
